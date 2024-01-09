@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6f2;
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/2753654.jpg");
+}
+
+header {
+    background-color: rgb(12, 42, 51);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    background-color: #060709
+}
+
+nav a:hover {
+    color: #022446;
+}
+
+.content {
+    flex: 1; 
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(25, 99, 107);
+    font-size: 28px;
+    background-color: white;
+}
+
+p {
+    color: #060709;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    
+}
+
+.book-link {
+    margin-top: 30px;
+}
+
+.book-link a {
+    display: inline-block;
+    background-color: #02161a;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.book-link a:hover {
+    background-color: rgb(21, 166, 195);
+}
+
+
+.footer {
+    background-color: #19384d;
+    color: white;
+    text-align: center;
+    padding: 15px; 
+}

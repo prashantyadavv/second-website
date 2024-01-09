@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; 
+    color: #e0e0e0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://image.freepik.com/free-photo/dark-enchanted-forest-background_1150-19998.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: #263238; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4f5b62; 
+}
+
+main {
+    padding: 40px;
+}
+
+h2 {
+    color: #e0e0e0;
+    background-color: #37474f;
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #e0e0e0; 
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #455a64;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #263238;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional whimsical effects */
+#chapter1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#chapter2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#chapter3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#chapter4 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#chapter5 {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+a {
+    display: block;
+    background-color: #37474f; 
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #546e7a; 
+}

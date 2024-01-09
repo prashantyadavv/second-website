@@ -1,0 +1,167 @@
+
+body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #0e0604;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 2em;
+    animation: pulse 3s infinite;
+}
+
+h3 {
+    color: #e44d26;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), transparent);
+    opacity: 0;
+    animation: lightning 0.5s ease-out 3s infinite;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: pulse 3s infinite;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+h1::before, h1::after {
+    content: '"';
+    color: #e44d26;
+}
+
+h3::before, h3::after {
+    content: '👻 ';
+}
+
+p::first-letter {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+a {
+    color: #cc7a00;
+    text-decoration: none;
+    border-bottom: 1px dashed #cc7a00;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e44d26;
+}
+
+body > h3 {
+    border-top: 2px solid #e44d26;
+    padding-top: 10px;
+}
+
+code {
+    background-color: #222;
+    color: #e44d26;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+blockquote {
+    border-left: 3px solid #e44d26;
+    margin: 0;
+    padding-left: 10px;
+    font-style: italic;
+    color: #e44d26;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes lightning {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+body {
+    background-color: #111;
+    color: #7d2222; 
+    font-family: 'Merriweather', 'Chiller', cursive;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+header {
+    background-color: #690909; 
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 2em;
+    color: #010101; }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #070000; 
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a35050; 
+}
+
+.horror-story h3, .horror-story p {
+    color: white; }
+main {
+    flex: 1; 
+}
+
+footer {
+    background-color: brown;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}

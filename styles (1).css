@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://booxoul.com/wp-content/uploads/2021/09/A-Slice-of-Life-and-4-other-Books-of-Stories-to-pursue-delicate-Human-Emotions.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding:0;
+    height:100%;
+}
+
+header {
+    background-color: #673d2d;
+    padding: 1em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(216, 32, 32);
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60;
+}
+
+.hero-section {
+    background-color: rgba(114, 66, 49, 0.7);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #6c331e;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(53, 18, 8);
+}
+
+
+footer {
+    background-color: #673d2d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}

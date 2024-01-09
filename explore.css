@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black; 
+    color: white;
+    background-image: url("https://img.freepik.com/free-vector/education-background-with-books-ceiling-lamp_53876-115359.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1699920000&semt=ais");
+}
+
+header {
+    background-color: brown; 
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    color:white
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-section {
+    text-align: center;
+    margin: 50px; 
+}
+
+.book-types {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book-type {
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    opacity: 0; 
+    animation: fadeIn 1s ease-out forwards; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.book-type img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+nav a:hover{
+    color: rgb(101, 39, 39);
+}
+
+.book-type h3 {
+    margin-top: 10px;
+    color:rgb(205, 78, 78); 
+}
+
+footer {
+    background-color: brown;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
